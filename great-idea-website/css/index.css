@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5 {
 body {
 	max-width: 876px;
 	margin: auto;
+	font-family: 'Lora', serif;
 }
 h1 {
 	font-size: 85px;
@@ -93,7 +94,12 @@ hr {
 }
 
 header {
-	margin-top: 30px;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	width: 925px;
+	height: 60px;
+	background-color: #333;
 }
 
 nav {
@@ -105,8 +111,12 @@ header nav a {
 	text-decoration: none;
 	color: #bcbcbc;
 	text-align: center;
-	width: 100px;
+	width: 90px;
 
+}
+
+header nav a:hover {
+	color: white;
 }
 
 footer {
@@ -126,7 +136,7 @@ footer {
 
 .head {
 	padding: 25px 50px 75px 100px;
-	margin-top: 30px;
+	margin-top: 90px;
 }
 
 .text-title {
