@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 876px;
+	margin: auto;
+}
+h1 {
+	font-size: 85px;
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+header {
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	width: 925px;
+	height: 60px;
+	background-color: #333;
+}
+
+nav {
+	display: inline-block;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #bcbcbc;
+	text-align: center;
+	width: 90px;
+
+}
+
+header nav a:hover {
+	color: white;
+}
+
+footer {
+	text-align: center;
+	margin: 50px;
+}
+
+.logo {
+	background-image: url("../img/logo.png");
+	width: 183px;
+	height: 36px;
+	position: relative;
+	display: inline-block;
+	top:10px;
+	left: 120px;
+}
+
+.head {
+	padding: 25px 50px 75px 100px;
+	margin-top: 90px;
+}
+
+.text-title {
+	display: inline-block;
+	text-align: center;
+}
+
+.text-title a {
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	width: 200px;
+	color: black;
+}
+
+.head-image {
+	position: relative;
+	left: 100px;
+}
+
+.box {
+	display: inline-block;
+	width: 436px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.box2 {
+	display: inline-block;
+	width: 287px;
+	padding: 10px;
+	margin: 1px;
+}
+
+.middle-img {
+	background-image: url("../img/mid-page-accent.jpg");
+	min-height: 182px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: -1;
+}
+
+.head-image {
+	background-image: url("../img/header-img.png");
+	min-height: 379px;
+	width: 379px;
+	display: inline-block;
+	z-index: -1;
+}
+
+.contact {
+	margin-top: 40px;
+}
