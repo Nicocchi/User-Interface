@@ -77,6 +77,12 @@ h1 {
 	font-size: 85px;
 }
 
+h2 {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 hr {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -87,12 +93,7 @@ hr {
 }
 
 header {
-	overflow: hidden;
-	position: fixed;
-	top: 0px;
-	width: 925px;
-	height: 60px;
-	background-color: #333;
+	margin-top: 30px;
 }
 
 nav {
@@ -104,12 +105,8 @@ header nav a {
 	text-decoration: none;
 	color: #bcbcbc;
 	text-align: center;
-	width: 90px;
+	width: 100px;
 
-}
-
-header nav a:hover {
-	color: white;
 }
 
 footer {
@@ -129,7 +126,7 @@ footer {
 
 .head {
 	padding: 25px 50px 75px 100px;
-	margin-top: 90px;
+	margin-top: 30px;
 }
 
 .text-title {
